@@ -1,0 +1,28 @@
+.button {
+    background-color: #df0e62; /* Розовый фон */
+    border: 2px solid #df0e62; /* Белая рамка */
+    border-radius: 10px; /* Закруглённые углы */
+    color: white; /* Белый текст */
+    padding: 10px; /* Отступы внутри кнопки */
+    text-align: center; /* Выравнивание текста по центру */
+    text-decoration: none; /* Без подчёркивания */
+    display: inline-block; /* Блочно-строчный элемент */
+    font-size: 16px; /* Размер шрифта */
+    font-weight: 600;
+    cursor: pointer; /* Курсор в виде руки */
+  }
+  
+  /* Стиль для кнопок при наведении мыши */
+  .button:hover {
+    background-color: lightpink; /* Светло-розовый фон */
+    border: 2px solid pink; /* Розовая рамка */
+  }
+
+
+  .container1 {
+    width: 80%;
+    margin: 0 auto; /* Центрирование контейнера */
+    display: flex; /* Добавим свойство flex для работы align-items */
+    flex-direction: column;
+    align-items: center; /* Центрирование содержимого по горизонтали */
+  }
